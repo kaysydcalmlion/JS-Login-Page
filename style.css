@@ -1,0 +1,155 @@
+html, body{
+    background-image: url(bg-intro-desktop.png) ;
+    background-color:#f57679;
+    overflow-y: auto;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 22%;
+    margin: 250px 200px 100px 100px;
+}
+.content h1{
+    font-size: 40px;
+    width: 130%;
+}
+.content p{
+    width: 150%;
+    font-size: 15px;
+    margin-top: -15px;
+}
+.border1{
+    position: relative;
+    left: 50%;
+    top: -420px;
+    width: 36%;
+    padding:1px 10px ;
+    text-align: center;
+    background-color: #5d54a3;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgb(41, 40, 40);
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+.container{
+    position: relative;
+    left: 50%;
+    top: -400px;
+    width: 36%;
+    height: autogit gi;
+    padding: 25px 9px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgb(41, 40, 40);
+}
+.container input[type="text"]{
+    width: 86%;
+    height: 22px;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border:1px solid #e3e0e0;
+}
+.container input[type="text"]:focus{
+    border: 1px solid grey;
+    outline: none;
+}
+.container input[type="submit"]{
+    width: 90.5%;
+    margin: 15px 20px;
+    padding: 14px;
+    border-radius: 5px;
+    background-color: #37cc8a;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.container input[type="submit"]:focus{
+    border: none;
+    outline: none;
+}
+.container p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    color: grey;
+}
+.container p a{
+    text-decoration: none;
+    color: red;
+}
+
+
+/* for mobile */
+
+@media  screen and (min-width:380px){
+    .body{
+        background-image: url("bg-intro-mobile.png");
+    }
+    .wrapper{
+        padding: 10px;
+    }
+    .content{
+        width: 65%;
+        margin: 70px 50px 500px 50px;
+    }
+    .content h1{
+        width: auto;
+        font-size: 28px;
+        text-align: center;
+        letter-spacing:0.2px ;
+        margin-left: 10px;
+    }
+    .content p{
+        width: 120%;
+        margin-left:-10px;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    .border1{
+        width: 85%;
+        padding:10px 10px;
+        margin-left: -160px;
+        margin-top: -40px;
+        /* margin: -40px 100px 0px -160px; */
+    }
+    .container{
+        width: 85%;
+        margin-left: -160px;
+    }
+    .container input[type="text"]{
+        margin: 10px;
+    }
+    .container input[type="submit"]{
+        margin: 10px;
+        width: 93%;
+    }
+    .container p{
+        text-align: center;
+        width: 80%;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
