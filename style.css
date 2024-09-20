@@ -84,7 +84,7 @@ html, body{
 
 /* for mobile */
 
-@media  screen and (min-width:380px){
+@media  screen and (max-width:430px){
     .body{
         background-image: url("bg-intro-mobile.png");
     }
