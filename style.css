@@ -112,9 +112,16 @@ html, body{
     }
     .border1{
         width: 85%;
-        padding:10px 10px;
+        padding:1px 10px;
         margin-left: -160px;
         margin-top: -40px;
+    }
+    .border1 p{
+        width: 50%;
+        padding-left: 70px;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
     }
     .container{
         width: 85%;
